@@ -14,11 +14,7 @@ int main(){
 	while((nread=read(1,block,sizeof(block)))==sizeof(block)){
 		printf("%s",block);
 	}
-//	if (nread!=0){
-//		char block1[nread];
-//		strncpy(block1,block,nread);
-//		printf("%s",block1);
-//	}
+
 	printf("nread = %d\n",nread);
 	exit(0);
 }
